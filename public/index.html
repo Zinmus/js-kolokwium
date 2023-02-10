@@ -2,43 +2,21 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Currency exchange</title>
+    <title>Document</title>
 
     <script src="js/app.js" defer></script>
-    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <header>
-      <h1>Currency exchange by Nazar Potipaka</h1>
-    </header>
-    <main>
-      <div id="loader"><div class="spinner"></div></div>
-      <div>
-        <label for="cur-base">Base Currency</label>
-        <select id="cur-base" class="currency" name="currency"></select>
-      </div>
-      <div>
-        <label for="cur-ref">Reference</label>
-        <select id="cur-ref" class="currency" name="currency"></select>
-        <button id="add-ref" disabled>add</button>
-        <button id="remove-ref">remove</button>
-      </div>
+    <form>
+      text
+      <input type="text" id="text" />
+      grade
+      <input type="text" id="grade" />
+      image
+      <input type="text" id="image" />
+      <button id="submit">Submit</button>
+    </form>
 
-      <canvas id="chart"></canvas>
-
-      <button class="badge date-span" data-span="1w">1 week</button>
-      <button class="badge date-span" data-span="2w">2 weeks</button>
-      <button class="badge date-span" data-span="1m">1 month</button>
-      <button class="badge date-span" data-span="6m">6 months</button>
-      <button class="badge date-span" data-span="1y" disabled>1 year</button>
-
-      <div>
-        <h2>Current exchange rates</h2>
-        <div class="current-rates">
-          <ul id="exchange-list"></ul>
-          <ul id="exchange-list-reverse"></ul>
-        </div>
-      </div>
-    </main>
+    <div id="output"></div>
   </body>
 </html>
