@@ -4,7 +4,7 @@ This is a simple web page made for JS test.
 
 # Prerequisites
 
-1. [Node JS](https://nodejs.org/en/) + [NPM](https://www.npmjs.com/)
+[Node JS](https://nodejs.org/en/) + [NPM](https://www.npmjs.com/)
 
 # Quick start guide
 
