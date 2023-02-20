@@ -1,3 +1,7 @@
+# About
+
+This is a simple web page made for JS test.
+
 # Prerequisites
 
 1. Node JS + NPM
