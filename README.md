@@ -1,7 +1,3 @@
-# About
-
-This is a simple web page made for JS test.
-
 # Prerequisites
 
 [Node JS](https://nodejs.org/en/) + [NPM](https://www.npmjs.com/)
